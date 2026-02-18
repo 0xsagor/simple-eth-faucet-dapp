@@ -1,0 +1,14 @@
+{
+  "name": "simple-eth-faucet",
+  "version": "1.0.0",
+  "description": "Beginner Ethereum Faucet DApp",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run deploy.js --network localhost"
+  },
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "hardhat": "^2.22.0"
+  }
+}
